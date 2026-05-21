@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TechService KDG</title>
+
+  <meta name="description"
+        content="Service informatique rapide et fiable à Koudougou : installation Windows, optimisation PC, logiciels et assistance technique.">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS -->
+  <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+
+      <h3>TechService KDG</h3>
+
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button id="theme-toggle"
+              class="theme-btn"
+              aria-label="Changer le thème">
+        🌙
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+
+    <h1>TechService KDG</h1>
+
+    <p>
+      Service informatique rapide et fiable à Koudougou
+    </p>
+
+    <a href="https://wa.me/22606281748"
+       class="btn-primary">
+
+      <i class="fab fa-whatsapp"></i>
+      Contact WhatsApp
+
+    </a>
+
+  </header>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+
+    <h2>Nos Services</h2>
+
+    <div class="grid">
+
+      <div class="card"
+           data-title="Installation de système"
+           data-icon="fa-laptop-code"
+           data-desc="Installation Windows, Linux et optimisation complète du système.">
+
+        <i class="fas fa-laptop-code"></i>
+        <h3>Installation OS</h3>
+
+      </div>
+
+      <div class="card"
+           data-title="Création de comptes"
+           data-icon="fa-user-plus"
+           data-desc="Création de comptes Windows et configuration sécurisée.">
+
+        <i class="fas fa-user-plus"></i>
+        <h3>Comptes Utilisateur</h3>
+
+      </div>
+
+      <div class="card"
+           data-title="Installation Logicielle"
+           data-icon="fa-download"
+           data-desc="Installation de logiciels, antivirus, Office et outils professionnels.">
+
+        <i class="fas fa-download"></i>
+        <h3>Installation Logicielle</h3>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- GALERIE -->
+  <section class="galerie" id="galerie">
+
+    <h2>Nos Réalisations</h2>
+
+    <div class="galerie-grid">
+
+      <figure class="galerie-item" data-aos="zoom-in">
+
+        <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600"
+             alt="Installation PC">
+
+        <figcaption>
+
+          <h4>Installation Windows 11</h4>
+
+          <p class="commentaire">
+            "Travail propre et rapide !"
+          </p>
+
+          <span class="auteur">
+            - Issouf, Client
+          </span>
+
+        </figcaption>
+
+      </figure>
+
+      <figure class="galerie-item" data-aos="zoom-in">
+
+        <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600"
+             alt="Réparation PC">
+
+        <figcaption>
+
+          <h4>Nettoyage et Optimisation</h4>
+
+          <p class="commentaire">
+            "Mon PC fonctionne comme neuf."
+          </p>
+
+          <span class="auteur">
+            - Aïcha, Étudiante
+          </span>
+
+        </figcaption>
+
+      </figure>
+
+      <figure class="galerie-item" data-aos="zoom-in">
+
+        <img src="https://images.unsplash.com/photo-1593642634443-44adaa06623a?w=600"
+             alt="Montage PC">
+
+        <figcaption>
+
+          <h4>Montage PC Gamer</h4>
+
+          <p class="commentaire">
+            "Service sérieux et professionnel."
+          </p>
+
+          <span class="auteur">
+            - Moussa, Gamer
+          </span>
+
+        </figcaption>
+
+      </figure>
+
+    </div>
+
+  </section>
+
+  <!-- À PROPOS -->
+  <section class="about">
+
+    <h2>À Propos</h2>
+
+    <p>
+      Technicien informatique à Koudougou.
+      Service rapide, prix honnête et déplacement possible.
+    </p>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+
+    <h2>Contactez-moi</h2>
+
+    <p>
+      Une question ou un devis ? Envoyez-moi un message.
+    </p>
+
+    <form action="https://formsubmit.co/abrahamkologow@gmail.com"
+          method="POST"
+          class="contact-form">
+
+      <input type="text"
+             name="name"
+             placeholder="Votre nom"
+             required>
+
+      <input type="email"
+             name="email"
+             placeholder="Votre email"
+             required>
+
+      <textarea name="message"
+                rows="5"
+                placeholder="Votre message"
+                required></textarea>
+
+      <input type="hidden"
+             name="_subject"
+             value="Nouveau message TechService KDG">
+
+      <input type="hidden"
+             name="_captcha"
+             value="false">
+
+      <button type="submit"
+              class="btn-primary">
+
+        <i class="fas fa-paper-plane"></i>
+        Envoyer
+
+      </button>
+
+    </form>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 TechService KDG</p>
+  </footer>
+
+  <!-- MODALE -->
+  <div id="modal" class="modal">
+
+    <div class="modal-content">
+
+      <span class="close-btn">&times;</span>
+
+      <i id="modal-icon" class="fas"></i>
+
+      <h3 id="modal-title"></h3>
+
+      <p id="modal-desc"></p>
+
+      <a href="https://wa.me/22606281748"
+         class="btn-primary">
+
+        <i class="fab fa-whatsapp"></i>
+        Demander ce service
+
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+
+    // MODE SOMBRE
+    const toggleBtn = document.getElementById("theme-toggle");
+
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("light-mode");
+
+      toggleBtn.textContent =
+        document.body.classList.contains("light-mode")
+        ? "☀️"
+        : "🌙";
+    });
+
+    // MODALE
+    const modal = document.getElementById("modal");
+    const modalTitle = document.getElementById("modal-title");
+    const modalDesc = document.getElementById("modal-desc");
+    const modalIcon = document.getElementById("modal-icon");
+
+    document.querySelectorAll(".card").forEach(card => {
+
+      card.addEventListener("click", () => {
+
+        modalTitle.textContent = card.dataset.title;
+        modalDesc.textContent = card.dataset.desc;
+
+        modalIcon.className =
+          "fas " + card.dataset.icon;
+
+        modal.classList.add("active");
+
+      });
+
+    });
+
+    document.querySelector(".close-btn")
+      .addEventListener("click", () => {
+        modal.classList.remove("active");
+      });
+
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.classList.remove("active");
+      }
+    });
+
+  </script>
+
+</body>
+</html>
